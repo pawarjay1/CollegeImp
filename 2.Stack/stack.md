@@ -8,7 +8,7 @@ stack is linear data structure. which follows LIFO & FILO.
 -you push & pop data from top of the stack.
 
 **stack operations** 
--push(x) insertion
+-push(x) insertion  <br>
 -pop() deletion
 -peek() / top() it will return the top most element of the stack without removing removing elment from the stack. 
 -isempty() 
