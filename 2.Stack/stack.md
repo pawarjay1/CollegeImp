@@ -1,11 +1,8 @@
-###stack###
-
 stack is linear data structure. which follows LIFO & FILO.
 
-**Rule**<br>
+> [!NOTE] <br>
 >insertion(push) & deletion(pop) is only from one end.<br>
-
--you push & pop data from top of the stack.<br>
+>you push & pop data from top of the stack.<br>
 
 **stack operations** <br>
 -push(x) insertion  <br>
