@@ -2,22 +2,22 @@ stack
 
 stack is linear data structure. which follows LIFO & FILO.
 
-**Rule**
->insertion(push) & deletion(pop) is only from one end.
+**Rule**<br>
+>insertion(push) & deletion(pop) is only from one end.<br>
 
--you push & pop data from top of the stack.
+-you push & pop data from top of the stack.<br>
 
-**stack operations** 
+**stack operations** <br>
 -push(x) insertion  <br>
--pop() deletion
--peek() / top() it will return the top most element of the stack without removing removing elment from the stack. 
--isempty() 
--isFull()  
+-pop() deletion <br>
+-peek() / top() it will return the top most element of the stack without removing removing elment from the stack. <br>
+-isempty() <br>
+-isFull()  <br>
 
-**Application of the stack** 
--reverse a string  
+**Application of the stack** <br>
+-reverse a string  <br>
 
 
-we can impliment stack using two ways 
-    1- Array (static)
-    2- Linked List (dynamic)
+we can impliment stack using two ways <br>
+    1- Array (static)<br>
+    2- Linked List (dynamic)<br>
