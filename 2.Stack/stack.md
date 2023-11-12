@@ -1,9 +1,9 @@
-#stack
+stack
 
 stack is linear data structure. which follows LIFO & FILO.
 
 **Rule**
--insertion(push) & deletion(pop) is only from one end.
+>insertion(push) & deletion(pop) is only from one end.
 
 -you push & pop data from top of the stack.
 
