@@ -1,6 +1,6 @@
 stack is linear data structure. which follows LIFO & FILO.
 
-> [!NOTE] <br>
+> [!rule] <br>
 >insertion(push) & deletion(pop) is only from one end.<br>
 >you push & pop data from top of the stack.<br>
 
