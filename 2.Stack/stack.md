@@ -1,3 +1,5 @@
+#stack
+
 stack is linear data structure. which follows LIFO & FILO.
 
 **Rule**
