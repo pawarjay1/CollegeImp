@@ -1,5 +1,5 @@
 
-stack is linear data structure. which follows LIFO & FILO.
+stack is linear data structure. which follows LIFO(Last In First Out)
 
 **Rule**<br>
 insertion(push) & deletion(pop) is only from one end.<br>
@@ -14,6 +14,7 @@ insertion(push) & deletion(pop) is only from one end.<br>
 -isFull()  <br>
 
 **Application of the stack** <br>
+-expresion conversoin <br>
 -reverse a string  <br>
 
 
