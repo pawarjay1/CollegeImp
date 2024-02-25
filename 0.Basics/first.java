@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class first {
 
@@ -36,12 +36,12 @@ public class first {
 
         // System.out.println(" length is "+ len);
 
-        // for(int i=0; i<10; i++){
-        // if(i==5){
-        // continue;
-        // }
-        // System.out.println(i);
-        // }
+        for(int i=0; i<10; i++){
+        if(i==5){
+        continue;
+        }
+        System.out.println(i);
+        }
 
     }
 }
