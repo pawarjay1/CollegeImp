@@ -1,4 +1,5 @@
-public class star_pattern2 {
+package PatternsQ;
+public class pattern_11 {
     public static void main(String[] args) {
         int n = 5; 
 
