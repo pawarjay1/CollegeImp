@@ -36,12 +36,34 @@ public class first {
 
         // System.out.println(" length is "+ len);
 
-        for(int i=0; i<10; i++){
-        if(i==5){
-        continue;
-        }
-        System.out.println(i);
+        // for(int i=0; i<10; i++){
+        // if(i==5){
+        // continue;
+        // }
+        // System.out.println(i);
+        // }
+
+        int n = 4; 
+        
+        for(int i=1; i<n; i++){
+            for(int j=1; j<n; j++){
+                if(i==2 || j==2 || j==3){
+                    System.out.print("-");
+                }
+                else if(i==3 || j==2 || j==3){
+                    System.out.print("-");
+                }
+                else{
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
         }
 
     }
 }
+
+// **** 
+// **** 
+// **** 
+// **** 
