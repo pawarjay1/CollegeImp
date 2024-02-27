@@ -13,7 +13,7 @@ public class pattern_11 {
                 System.out.print("-");
             }
 
-            for(int j=i; j>=1; j--){
+            for(int j=i; j>=1; j--){  
                 System.out.print(j);
             }
 
@@ -21,3 +21,9 @@ public class pattern_11 {
         }
     }
 }
+
+// 1--------1
+// 12------21
+// 123----321
+// 1234--4321
+// 1234554321
