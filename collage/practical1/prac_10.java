@@ -1,4 +1,4 @@
-package collage;
+package collage.practical1;
 import java.util.*; 
 
 

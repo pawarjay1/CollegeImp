@@ -1,5 +1,4 @@
-package collage;
-
+package collage.practical1; 
 public class prac_11_1 {
     public static void main(String[] args) {
        int n=5; 

@@ -1,4 +1,4 @@
-package collage;
+package collage.practical1;
 
 public class prac_11_3 {
 
