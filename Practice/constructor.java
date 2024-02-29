@@ -1,3 +1,4 @@
+package Practice;
 class boy{
     String name; 
     int age; 
