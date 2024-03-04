@@ -24,7 +24,7 @@ public class palindrom {
     }
 
     public static void main(String args[]) {
-        int n = 111;
+        int n = 1331;
         palindrom_num(n);
     }
 }
