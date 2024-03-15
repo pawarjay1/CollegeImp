@@ -1,13 +1,13 @@
 package Practice;
 class bike{
-    void run(){
-        System.out.println("bike is running ");
-    }
+    String color = "red"; 
 }
 
 class bike2 extends bike{
+    String color = "wheight"; 
     void run(){
-        System.out.println(" BIKE TWO IS RUNNING ");
+        System.out.println(color);
+        System.out.println(super.color);
     }
 }
 

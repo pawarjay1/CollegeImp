@@ -13,7 +13,7 @@ public class counting_element_array {
     }
     public static void main(String args[]){
         int arr[]={1,2,2,4,1};  
-        int n = 4; 
+        int n = 2; 
         f(arr,n); 
     }
 }
