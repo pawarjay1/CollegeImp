@@ -1,0 +1,31 @@
+**features of Java**
+
+Simple
+Object-Oriented
+Portable
+Platform independent
+Secured
+Robust
+
+Architecture neutral
+Interpreted
+High Performance
+Multithreaded
+Distributed
+Dynamic
+
+Simple: 
+Java is very easy to learn, and its syntax is simple, clean and easy to understand.
+
+Object-oriented: 
+Object-oriented programming (OOPs) is a methodology that simplifies software development and maintenance by providing some rules.
+
+Platform Independent: 
+Java is platform independent because it is different from other languages like C, C++, etc. which are compiled into platform specific machines while Java is a write once, run anywhere language.
+
+Secured: 
+Java is best known for its security.  Java is secured because: No explicit pointer
+
+Portable: 
+Java is portable because it facilitates you to carry the Java bytecode to any platform.
+
