@@ -67,7 +67,9 @@ The Run time error that occur during the execution of program is called run time
 3)Logic error
 These occur when the program is executing correctly, but the result is not what was intended. 
 
+**java garbage collector**
 
+Java does not support Destructor to free up the memory. For that java support Garbage Collection 	
 
-
+A Java runtime environment delete object periodically when it determine that they are no longer being used. This process is known as Garbage Collection.
 
