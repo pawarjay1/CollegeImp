@@ -1,4 +1,4 @@
-package Practice;
+package oop_practice;
 // import java.util.*
 
 public class first {

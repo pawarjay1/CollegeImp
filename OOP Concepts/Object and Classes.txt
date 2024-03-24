@@ -1,0 +1,98 @@
+**object**
+An object is an instance of a class that represents a real-world entity.
+
+**class**
+class is a blueprint or template that determines the structure and behavior of objects
+
+**constructor** 
+
+Defination: The constructor is a specialized method for initializing objects.
+
+Constructor name is same as its class name.
+Constructor is a special Type of method.
+Constructor does not have any return type not even Void.
+
+Whenever an object of the associated class is created, the constuctor is invoked automatically 
+
+Rules for creating Java constructor
+1.Constructor name must be the same as its class name
+2.A Constructor must have no explicit return type
+3.A Java constructor cannot be abstract, static, final, and synchronized
+
+there are three types of constructor
+1.Default Constructor : 
+When user does not define any type of Constructor then Java create System define constructor which is known as Default Constructor.
+The default constructor is used to provide the default values to the object like 0, null, etc.
+
+For example : 
+class Student3
+{  
+	int id;  
+	String name;  
+	//method to display the value of id and name  
+	void display(){System.out.println(id+" "+name);}  
+  
+	public static void main(String args[]){  
+		//creating objects  
+		Student3 s1=new Student3();  
+		Student3 s2=new Student3();  
+		//displaying values of the object  
+		s1.display();  
+		s2.display();  
+	}  
+}  
+
+output : 0 Null
+
+
+2.Parameterized Constructor : 
+When we pass argument in Constructor then it is known as Parameterized Constructor.
+
+For example : 
+class Student4{  
+    int id;  
+    String name;  
+    
+    Student4(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    
+    void display(){System.out.println(id+" "+name);}  
+   
+    public static void main(String args[]){  
+    
+    Student4 s1 = new Student4(111,"Karan");  
+    Student4 s2 = new Student4(222,"Aryan");  
+      
+    s1.display();  
+    s2.display();  
+   }  
+} 
+
+3.Copy Constructor : 
+Copy Constructor copy the state (date) of one object to another object.
+
+For example: 
+class Student6{  
+    int id;  
+    String name;  
+    //constructor to initialize integer and string  
+    Student6(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    //constructor to initialize another object  
+    Student6(Student6 s){  
+    id = s.id;  
+    name =s.name;  
+    }  
+    void display(){System.out.println(id+" "+name);}  
+   
+    public static void main(String args[]){  
+    Student6 s1 = new Student6(111,"Karan");  
+    Student6 s2 = new Student6(s1);  
+    s1.display();  
+    s2.display();  
+   }  
+}  

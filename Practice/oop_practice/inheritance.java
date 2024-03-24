@@ -1,10 +1,13 @@
-package Practice;
+package Practice.oop_practice;
 class bike{
     String color = "red"; 
 }
 
 class bike2 extends bike{
     String color = "wheight"; 
+    /**
+     * 
+     */
     void run(){
         System.out.println(color);
         System.out.println(super.color);

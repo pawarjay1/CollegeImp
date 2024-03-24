@@ -1,4 +1,5 @@
-package Practice;
+package Practice.oop_practice;
+
 class boy{
     String name; 
     int age; 
