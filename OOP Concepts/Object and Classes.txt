@@ -9,8 +9,10 @@ class is a blueprint or template that determines the structure and behavior of o
 Defination: The constructor is a specialized method for initializing objects.
 
 Constructor name is same as its class name.
+Constructor must be declared in the public mode.
 Constructor is a special Type of method.
 Constructor does not have any return type not even Void.
+Constructor can not be inherited. But the derived class can invoke the constructor of base class. 
 
 Whenever an object of the associated class is created, the constuctor is invoked automatically 
 
@@ -95,4 +97,43 @@ class Student6{
     s1.display();  
     s2.display();  
    }  
+} 
+
+**Constructor Overloading** 
+
+Constructor overloading is a technique of having more than one constructor with different parameter lists. 
+They are arranged in a way that each constructor performs a different task. 
+They are differentiated by the compiler by the number of parameters.
+
+class Student5{  
+    int id;  
+    String name;  
+    int age;  
+      
+    Student5(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+      
+    Student5(int i,String n,int a){  
+    id = i;  
+    name = n;  
+    age=a;  
+    }  
+    void display(){System.out.println(id+" "+name+" "+age);}  
+   
+    public static void main(String args[]){  
+    Student5 s1 = new Student5(111,"Karan");  
+    Student5 s2 = new Student5(222,"Aryan",25);  
+    s1.display();  
+    s2.display();  
+   }  
 }  
+
+**Scope of variable** 
+
+Scope of the variable means the block or area of code in which particular variable is accessible. 
+there are three types of variables : 1) Instance variable 2) Class variable 3) Local variable
+
+Instance and class variable are declared inside the class. 
+The local variavles are declared inside the method. 
