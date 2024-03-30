@@ -2,12 +2,15 @@
 import keyword is used to import the built-in and user-defined packages, class or interface in Java. 
 
 **new** 
-The new keyword is used to create an instance of a class, also known as an object. 
+The new keyword is used to create an instance of a class, also known as an object.
+ 
 The new keyword in Java is used to allocate memory for the object on the heap, the memory space where objects are stored.
 
 **break**
 break statement is used to break loop or switch statement.
+
 It breaks the current flow of the program at specified condition. 
+
 We can use Java break statement in all types of loops such as for loop, while loop and do-while loop.
 
 public class BreakExample {  
@@ -40,3 +43,27 @@ output: 1234678910
 
 **this**
 this keyword is a reference variable that refers to the current object.
+
+Whenever the name of instance and local variable both are same then our jvm gets confused that which one is local variable and which one is instance variacle, to avoid this problem we should use this keyword. 
+
+The this keyword can be used to refer current class instance variable.
+for example 
+class A{
+  int a;  //instance variable 
+  A(int a){  //local variable
+     this.a = a;    
+  }
+}
+
+this can also be used to:
+
+Invoke current class constructor
+Invoke current class method
+Return the current class object
+Pass an argument in the method call
+Pass an argument in the constructor call
+
+
+**static** 
+
+static keyword is used for memory management mainly.

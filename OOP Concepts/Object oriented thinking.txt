@@ -1,12 +1,17 @@
 **Encapsulation**
+
 Encapsulation is a process of wrapping code and data together into a single unit.
+
 We can create a fully encapsulated class in Java by making all the data members of the class private.
+
 Now we can use setter and getter methods to set and get the data in it.
 
 **Abstraction**
+
 Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 
 **Access Modifiers**
+
 The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class.
 
 Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
@@ -18,6 +23,7 @@ Protected: The access level of a protected modifier is within the package and ou
 Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
 
 **Define object oriented concepts.**
+
 the main purpose of oop is to deal with real world entity using programming language. 
 
 -class: 

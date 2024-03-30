@@ -9,9 +9,13 @@ class is a blueprint or template that determines the structure and behavior of o
 Defination: The constructor is a specialized method for initializing objects.
 
 Constructor name is same as its class name.
+
 Constructor must be declared in the public mode.
+
 Constructor is a special Type of method.
+
 Constructor does not have any return type not even Void.
+
 Constructor can not be inherited. But the derived class can invoke the constructor of base class. 
 
 Whenever an object of the associated class is created, the constuctor is invoked automatically 
@@ -22,6 +26,7 @@ Rules for creating Java constructor
 3.A Java constructor cannot be abstract, static, final, and synchronized
 
 there are three types of constructor
+
 1.Default Constructor : 
 When user does not define any type of Constructor then Java create System define constructor which is known as Default Constructor.
 The default constructor is used to provide the default values to the object like 0, null, etc.
@@ -102,7 +107,9 @@ class Student6{
 **Constructor Overloading** 
 
 Constructor overloading is a technique of having more than one constructor with different parameter lists. 
+
 They are arranged in a way that each constructor performs a different task. 
+
 They are differentiated by the compiler by the number of parameters.
 
 class Student5{  
@@ -133,7 +140,9 @@ class Student5{
 **Scope of variable** 
 
 Scope of the variable means the block or area of code in which particular variable is accessible. 
+
 there are three types of variables : 1) Instance variable 2) Class variable 3) Local variable
 
 Instance and class variable are declared inside the class. 
+
 The local variavles are declared inside the method. 
