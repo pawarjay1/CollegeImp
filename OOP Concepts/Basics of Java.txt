@@ -1,4 +1,4 @@
- 55**JDK**
+ **JDK**
 JDK stands for java development kit.
 it is a software for running java programs.
 

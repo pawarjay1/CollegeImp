@@ -1,0 +1,42 @@
+**import**
+import keyword is used to import the built-in and user-defined packages, class or interface in Java. 
+
+**new** 
+The new keyword is used to create an instance of a class, also known as an object. 
+The new keyword in Java is used to allocate memory for the object on the heap, the memory space where objects are stored.
+
+**break**
+break statement is used to break loop or switch statement.
+It breaks the current flow of the program at specified condition. 
+We can use Java break statement in all types of loops such as for loop, while loop and do-while loop.
+
+public class BreakExample {  
+	public static void main(String[] args) {  
+      
+    	for(int i=1;i<=10;i++){  
+           if(i==5){    
+              break;  
+            }  
+          System.out.println(i);  
+       }  
+   }  
+}
+
+ouput : 1234
+
+**continue**
+The continue keyword is used to end the current iteration in a for loop (or a while loop), and continues to the next iteration.
+
+public class ContinueExample {
+public static void main(String[] args) {
+        for(int i=1;i<=10;i++){
+    	if(i==5){
+    		continue;    	}
+    	System.out.println(i);
+    }
+}
+}
+output: 1234678910
+
+**this**
+this keyword is a reference variable that refers to the current object.
