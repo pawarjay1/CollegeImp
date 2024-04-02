@@ -134,4 +134,109 @@ this and super cannot be used in static context.
 
 3. static block
 
+Is used to initialize the static data member.
 
+It is executed before the main method at the time of classloading.
+
+Example of static block : 
+
+class A2{  
+  static{System.out.println("static block is invoked");}  
+  public static void main(String args[]){  
+   System.out.println("Hello main");  
+  }  
+}  
+
+
+**final**
+
+Final means cannot be change or it is final (fix). 
+
+It is a same us constant in c++. 
+
+We can use final keyword in java with variable, class, method. 
+
+1. Final variable:
+
+When we declare variable as final then we cannot change the value of variable.. 
+
+Example:
+Final float pi=3.14;
+
+2.Final class: 
+
+If we declare class with final keyword then this class can’t be inherit. 
+
+it will give compile time error.
+
+3.Final Method:
+
+When we declare method as final then we cannot overwrite this method in subclass. 
+
+**super**
+
+super keyword is a reference variable which is used to refer immediate parent class object.
+
+Usage of Java super Keyword: 
+
+super can be used to refer immediate parent class instance variable , class method , class constructor.
+
+
+**finalize**
+
+Finalize() is the method of Object class.
+
+This method is called just before an object is garbage collected.
+
+
+**abstract**
+
+The abstract keyword is used to achieve abstraction in Java.
+
+The method which is declared with abstract keyword and doesn't have any implementation is known as an abstract method.
+
+**throw**
+
+The "throw" keyword is used to throw an exception.
+
+syntax: throw new exception_name("error message"); 
+
+public class Main {
+  static void checkAge(int age) {
+    if (age < 18) {
+      throw new ArithmeticException("Access denied - You must be at least 18 years old.");
+    }
+    else {
+      System.out.println("Access granted - You are old enough!");
+    }
+  }
+
+  public static void main(String[] args) {
+    checkAge(15); // Set age to 15 (which is below 18...)
+  }
+}
+ 
+
+**throws**
+
+The "throws" keyword is used to declare exceptions. It specifies that there may occur an exception in the method. It doesn't throw an exception. It is always used with method signature.
+
+syntax: 
+return_type method_name() throws exception_name{  
+//method code  
+} 
+
+public class Main {
+  static void checkAge(int age) throws ArithmeticException {
+    if (age < 18) {
+      throw new ArithmeticException("Access denied - You must be at least 18 years old.");
+    }
+    else {
+      System.out.println("Access granted - You are old enough!");
+    }
+  }
+
+  public static void main(String[] args) {
+    checkAge(15); // Set age to 15 (which is below 18...)
+  }
+} 

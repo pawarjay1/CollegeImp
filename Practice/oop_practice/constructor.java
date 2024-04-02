@@ -23,5 +23,6 @@ class boy{
 public class constructor {
     public static void main(String[] args) {
          boy b = new boy(10,"jay"); 
+         boy b1 = new boy(b);
     }
 }

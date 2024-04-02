@@ -51,3 +51,89 @@ In java we use abstraction class & Interface to achive abstraction.
 
 -Encapsulation: 
 binding code and data together into a single unit are known as encapsulation.
+
+
+**inheritance**
+
+Inheritance is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+
+ It is an important part of OOPs
+
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+use of inheritance : method overrideing (run time polymorphism), code reusability.
+
+The extends keyword indicates that you are making a new class that derives from an existing class. The meaning of "extends" is to increase the functionality.
+
+Types of inheritance : single , multilevel , Hierarchical 
+
+Multiple inheritance is not supported in Java through class. we need to use interface for it. 
+
+**Interface**
+
+Java does not support multiple inheritances.
+
+Multiple inheritance mean one sub class and more than one super class
+
+Java provides alternate solution for multiple inheritances that is interface.
+
+Using interface we can implements multiple inheritance
+
+Interface is basically a kind of class.
+
+Interface contains methods and variable but it defines only abstract method and final variable.
+
+Interface does not specify any code to implement methods (method does not have body).
+
+Syntax:
+ interface interfaceName
+{
+   Variable Declaration;  
+Method Declaration;
+}
+
+
+In interface we can use  implements keyword for inheritance. 
+
+**polymorphism**
+
+if one task is performed in different ways is known as polymorphism. 
+
+In java, we use method overloading and method overriding to achive polymorphism. 
+
+There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+
+We can perform polymorphism in java by method overloading and method overriding.
+
+
+**exception**
+
+Exception is abnormal condition that is caused by a runtime error in the program.
+
+The purpose of exception handling is to provide a means to detect and report an
+“abnormal condition “so we can take proper actions.
+
+Error handling code consist of two segments
+1) Detect errors and to throw exceptions
+2) Catch the exceptions and take appropriate actions
+
+The basic concept of Exception handling are throwing an exception and catching it.
+
+there are two types of exception : 
+1.Checked Exceptions : called compile-time exceptions : SQLException,IOException,ClassNotFoundException
+2.unChecked Exceptions :called runtime exception : ArrayIndexOutofBounds
+
+for example : 
+public class JavaExceptionExample{  
+  public static void main(String args[]){  
+   try{  
+      
+      int data=100/0;  
+
+   }catch(ArithmeticException e){System.out.println(e);}  
+   
+   
+   System.out.println("rest of the code...");  
+  }  
+}  
+
